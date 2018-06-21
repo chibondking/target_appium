@@ -61,7 +61,7 @@ the full SearchResultsPage, which would cause a test failure. Let's assume the f
 * No network latency
 
 Given the specs are:
-- Search for Product X (default search settings is based on 'relevance', which means Product X should display first.
+- Search for Product X (default search settings is based on 'relevance', which means Product X should display first.)
 - Product X should be displayed and the user should be able to click on it
 
 My bug report would look like:
@@ -79,7 +79,7 @@ Steps To Reproduce (Target Mobile app):
 2. Click on the search textbox and enter in the following text: "Product X" and select the first item that is displayed.
 
 <b>Expected Result:</b>
-I should see Product X displayed as the first result along with other products closely matching Product X
+Product X is displayed as the first result along with other products closely matching Product X according to relevance.
 
 <b>Actual Result:</b>
 Error message appears: "Oops, an unexpected error occurred. Please try again."
