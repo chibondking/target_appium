@@ -43,7 +43,7 @@ public class BaseTestClass {
         basePage.clickAnonymousLoginButton();
         basePage.clickSearchByZipOrAddressButton();
         basePage.setZipCodeOrAddress("60606");
-        basePage.setSelectedStore("Chicago State St.");
+        basePage.setSelectedStore();
         basePage.clickSetAsStoreButton();
     }
 
