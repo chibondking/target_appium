@@ -96,3 +96,6 @@ look for logs. Below is a simulated error on the server that I would include for
 Note: If search functionality were 100% broken, then step 2 would fail since we wouldn't be getting any matches at all.
 
 
+Appium logs can be sent to a centralized logging store to enable correlation of failed test runs in the test environment
+and those in the application. That's an exercise for another day!
+
