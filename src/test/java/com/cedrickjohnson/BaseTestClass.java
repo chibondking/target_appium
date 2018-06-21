@@ -16,7 +16,7 @@ public class BaseTestClass {
 
     public static AppiumDriver driver;
     public static BasePage basePage;
-    private static File classpathRoot = new File(System.getProperty("user.dir"));
+    private static final File classpathRoot = new File(System.getProperty("user.dir"));
     private static File appDir = new File(classpathRoot, "/src/test/apk");
     private static File app = new File(appDir, "com.target.ui.apk");
     private static String appPackage = "com.target.ui";

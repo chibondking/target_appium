@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartPage extends BasePage {
-    private AppiumDriver appiumDriver;
+    private final AppiumDriver appiumDriver;
 
     public ShoppingCartPage(AppiumDriver driver) {
         this.appiumDriver = driver;
@@ -46,11 +46,7 @@ public class ShoppingCartPage extends BasePage {
 
     public boolean isCartEmptyForAnonymousUser() {
         //If the cart is empty, the app will show the sign in frame (for not logged in users)
-        if(!appiumDriver.findElements(By.id("com.target.ui:id/cart_sign_in_frame")).isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        return !appiumDriver.findElements(By.id("com.target.ui:id/cart_sign_in_frame")).isEmpty();
     }
 
     public void saveOrDeleteItem(String action) {

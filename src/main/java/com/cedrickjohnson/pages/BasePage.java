@@ -23,7 +23,7 @@ public class BasePage {
     @FindBy(id = "search")
     @AndroidFindBy(accessibility = "search")
     @WithTimeout(time=60, chronoUnit = ChronoUnit.SECONDS)
-    private MobileElement targetSearchbox;
+    private MobileElement targetSearchBox;
 
     @AndroidFindBy(id = "com.target.ui:id/search_field")
     @WithTimeout(time=60, chronoUnit = ChronoUnit.SECONDS)
@@ -68,7 +68,7 @@ public class BasePage {
 
 
     public SearchResultsPage searchForProduct(String product) {
-        targetSearchbox.click();
+        targetSearchBox.click();
         popupSearchBox.setValue(product);
         popupSearchSuggestion.click();
         return new SearchResultsPage(appiumDriver);
@@ -82,8 +82,7 @@ public class BasePage {
         return selectedStoreText.getText();
     }
 
-    public void setSelectedStore(String store) {
-        //TODO Search for the specific store name in the xpath
+    public void setSelectedStore() {
         storeList.click();
     }
 
