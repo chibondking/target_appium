@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.temporal.ChronoUnit;
 
 public class SearchResultsPage extends BasePage {
-    private AppiumDriver appiumDriver;
+    private final AppiumDriver appiumDriver;
 
     public SearchResultsPage(AppiumDriver driver) {
         this.appiumDriver = driver;
@@ -21,8 +21,7 @@ public class SearchResultsPage extends BasePage {
     @WithTimeout(time=60, chronoUnit = ChronoUnit.SECONDS)
     private MobileElement productListView;
 
-    public ProductPage selectSpecificProduct(String productName) {
-        //TODO fix this
+    public ProductPage selectProduct() {
         productListView.click();
         return new ProductPage(appiumDriver);
     }

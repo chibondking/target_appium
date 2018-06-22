@@ -1,0 +1,1000 @@
+[2018-06-21 06:32:35][ADB] Attempting to kill all uiautomator processes
+[2018-06-21 06:32:35][ADB] Getting all processes with uiautomator
+[2018-06-21 06:32:35][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell ps'
+[2018-06-21 06:32:36][ADB] No uiautomator process found to kill, continuing...
+[2018-06-21 06:32:36][UiAutomator] Starting UIAutomator
+[2018-06-21 06:32:36][ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.target.ui","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[2018-06-21 06:32:37][UiAutomator] Moving to state 'online'
+[2018-06-21 06:32:37][AndroidBootstrap] Android bootstrap socket is now connected
+[2018-06-21 06:32:37][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+[2018-06-21 06:32:37][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+[2018-06-21 06:32:37][AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[2018-06-21 06:32:37][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[2018-06-21 06:32:37][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[2018-06-21 06:32:37][AndroidDriver] Screen already unlocked, doing nothing
+[2018-06-21 06:32:37][ADB] Device API level: 27
+[2018-06-21 06:32:37][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.target.ui/com.target.ui.activity.NavigationActivity -S'
+[2018-06-21 06:32:40][ADB] Waiting up to 20000ms for activity matching pkg: 'com.target.ui' and activity: '*' to be focused
+[2018-06-21 06:32:40][ADB] Possible activities, to be checked: '*', 'com.target.ui.*'
+[2018-06-21 06:32:40][ADB] Getting focused package and activity
+[2018-06-21 06:32:40][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window windows'
+[2018-06-21 06:32:40][ADB] Found package: 'com.target.ui' and fully qualified activity name : 'com.target.ui.activity.NavigationActivity'
+[2018-06-21 06:32:40][Appium] New AndroidDriver session created successfully, session d2527edb-26d6-40f8-b65e-765de538f278 added to master session list
+[2018-06-21 06:32:40][BaseDriver] Event 'newSessionStarted' logged at 1529623960427 (18:32:40 GMT-0500 (Central Daylight Time))
+[2018-06-21 06:32:40][W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}}
+[2018-06-21 06:32:40][HTTP] <-- POST /wd/hub/session 200 75170 ms - 1055
+[2018-06-21 06:32:40][HTTP]
+[2018-06-21 06:32:40][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:40][HTTP] {}
+[2018-06-21 06:32:40][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:40][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:40][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:32:40][HTTP]
+[2018-06-21 06:32:40][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:40][HTTP] {}
+[2018-06-21 06:32:40][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:40][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:40][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:32:40][HTTP]
+[2018-06-21 06:32:40][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:40][HTTP] {}
+[2018-06-21 06:32:40][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:40][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:40][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:32:40][HTTP]
+[2018-06-21 06:32:40][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:40][HTTP] {}
+[2018-06-21 06:32:40][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:40][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:40][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:32:40][HTTP]
+[2018-06-21 06:32:41][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:41][HTTP] {}
+[2018-06-21 06:32:41][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:41][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:41][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:32:41][HTTP]
+[2018-06-21 06:32:41][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:41][HTTP] {"using":"id","value":"com.target.ui:id/first_run_get_started_button"}
+[2018-06-21 06:32:41][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/first_run_get_started_button","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:41][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:41][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:41][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/first_run_get_started_button","context":"","multiple":false}}
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/first_run_get_started_button","context":"","multiple":false}}
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/first_run_get_started_button' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/first_run_get_started_button]
+[2018-06-21 06:32:41][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:41][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1"}
+[2018-06-21 06:32:41][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 286 ms - 53
+[2018-06-21 06:32:41][HTTP]
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[2018-06-21 06:32:41][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/1/click
+[2018-06-21 06:32:41][HTTP] {"id":"1"}
+[2018-06-21 06:32:41][W3C] Calling AppiumDriver.click() with args: ["1","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:41][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:32:44][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:44][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:32:44][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/1/click 200 3495 ms - 14
+[2018-06-21 06:32:44][HTTP]
+[2018-06-21 06:32:44][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:44][HTTP] {}
+[2018-06-21 06:32:44][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:44][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:44][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:32:44][HTTP]
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:32:44][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:44][HTTP] {"using":"id","value":"com.target.ui:id/gate_anonymous_login_button"}
+[2018-06-21 06:32:44][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/gate_anonymous_login_button","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:44][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:44][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:44][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/gate_anonymous_login_button","context":"","multiple":false}}
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/gate_anonymous_login_button","context":"","multiple":false}}
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/gate_anonymous_login_button' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/gate_anonymous_login_button]
+[2018-06-21 06:32:44][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[2018-06-21 06:32:44][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2"}
+[2018-06-21 06:32:44][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 58 ms - 53
+[2018-06-21 06:32:44][HTTP]
+[2018-06-21 06:32:44][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/2/click
+[2018-06-21 06:32:44][HTTP] {"id":"2"}
+[2018-06-21 06:32:44][W3C] Calling AppiumDriver.click() with args: ["2","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:44][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:44][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:32:45][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:32:45][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:32:45][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/2/click 200 255 ms - 14
+[2018-06-21 06:32:45][HTTP]
+[2018-06-21 06:32:45][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:45][HTTP] {}
+[2018-06-21 06:32:45][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:45][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:45][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:32:45][HTTP]
+[2018-06-21 06:32:45][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:45][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:45][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:45][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:45][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:45][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:45][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:45][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:32:45][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 729 ms - 1267
+[2018-06-21 06:32:45][HTTP]
+[2018-06-21 06:32:45][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:32:46][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:46][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:46][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:46][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:46][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:46][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:46][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:46][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:32:46][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 381 ms - 1267
+[2018-06-21 06:32:46][HTTP]
+[2018-06-21 06:32:46][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:32:47][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:47][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:47][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:47][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:47][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:47][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:47][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:47][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:32:47][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 127 ms - 1267
+[2018-06-21 06:32:47][HTTP]
+[2018-06-21 06:32:47][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:47][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:47][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:47][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:47][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:47][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:47][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:48][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:48][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:32:48][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 310 ms - 1267
+[2018-06-21 06:32:48][HTTP]
+[2018-06-21 06:32:48][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:48][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:48][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:48][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:48][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:48][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:48][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:50][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:50][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:50][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:53][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:53][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:32:53][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:32:53][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 4728 ms - 1267
+[2018-06-21 06:32:53][HTTP]
+[2018-06-21 06:32:54][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:54][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:54][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:54][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:54][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:54][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:54][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:54][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:54][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:54][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:54][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:56][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:56][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:32:56][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 2244 ms - 1267
+[2018-06-21 06:32:56][HTTP]
+[2018-06-21 06:32:56][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:56][HTTP] {"using":"id","value":"com.target.ui:id/search_by_zip_address"}
+[2018-06-21 06:32:56][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_by_zip_address","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:56][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:56][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:56][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_by_zip_address","context":"","multiple":false}}
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_by_zip_address' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:56][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_by_zip_address]
+[2018-06-21 06:32:57][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+[2018-06-21 06:32:57][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3"}
+[2018-06-21 06:32:57][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 719 ms - 53
+[2018-06-21 06:32:57][HTTP]
+[2018-06-21 06:32:57][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/3/click
+[2018-06-21 06:32:57][HTTP] {"id":"3"}
+[2018-06-21 06:32:57][W3C] Calling AppiumDriver.click() with args: ["3","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:57][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:32:57][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:32:57][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:32:57][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/3/click 200 437 ms - 14
+[2018-06-21 06:32:57][HTTP]
+[2018-06-21 06:32:57][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:32:57][HTTP] {}
+[2018-06-21 06:32:57][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:57][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:32:57][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:32:57][HTTP]
+[2018-06-21 06:32:57][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:32:57][HTTP] {"using":"id","value":"com.target.ui:id/search_field"}
+[2018-06-21 06:32:57][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_field","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:57][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:32:57][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:32:57][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_field","context":"","multiple":false}}
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_field","context":"","multiple":false}}
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_field' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:32:57][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_field]
+[2018-06-21 06:32:58][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:32:58][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+[2018-06-21 06:32:58][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4"}
+[2018-06-21 06:32:58][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 967 ms - 53
+[2018-06-21 06:32:58][HTTP]
+[2018-06-21 06:32:58][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/appium/element/4/value
+[2018-06-21 06:32:58][HTTP] {"id":"4","value":"60606"}
+[2018-06-21 06:32:58][W3C] Calling AppiumDriver.setValueImmediate() with args: ["60606","4","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:32:58][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+[2018-06-21 06:32:58][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+[2018-06-21 06:32:58][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:32:58][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:01][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:01][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell input text 60606'
+[2018-06-21 06:33:01][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:04][W3C] Responding to client with driver.setValueImmediate() result: null
+[2018-06-21 06:33:04][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/appium/element/4/value 200 5764 ms - 14
+[2018-06-21 06:33:04][HTTP]
+[2018-06-21 06:33:04][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:04][HTTP] {}
+[2018-06-21 06:33:04][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:04][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:04][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:33:04][HTTP]
+[2018-06-21 06:33:04][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:04][HTTP] {"using":"id","value":"com.target.ui:id/search_field"}
+[2018-06-21 06:33:04][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_field","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:04][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:04][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:04][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_field","context":"","multiple":false}}
+[2018-06-21 06:33:04][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_field","context":"","multiple":false}}
+[2018-06-21 06:33:04][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:04][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:04][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_field' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:04][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_field]
+[2018-06-21 06:33:05][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+[2018-06-21 06:33:05][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:05][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5"}
+[2018-06-21 06:33:05][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 418 ms - 53
+[2018-06-21 06:33:05][HTTP]
+[2018-06-21 06:33:05][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/5/click
+[2018-06-21 06:33:05][HTTP] {"id":"5"}
+[2018-06-21 06:33:05][W3C] Calling AppiumDriver.click() with args: ["5","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:05][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+[2018-06-21 06:33:05][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+[2018-06-21 06:33:05][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:05][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:07][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:07][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:07][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:07][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/5/click 200 2482 ms - 14
+[2018-06-21 06:33:07][HTTP]
+[2018-06-21 06:33:07][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:07][HTTP] {}
+[2018-06-21 06:33:07][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:07][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:07][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:07][HTTP]
+[2018-06-21 06:33:07][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:07][HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]"}
+[2018-06-21 06:33:07][W3C] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:07][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:07][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:07][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]","context":"","multiple":false}}
+[2018-06-21 06:33:07][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]","context":"","multiple":false}}
+[2018-06-21 06:33:07][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:07][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:07][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]' using 'XPATH' with the contextId: '' multiple: false
+[2018-06-21 06:33:08][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.RelativeLayout, INSTANCE=3]
+[2018-06-21 06:33:08][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:08][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6"}
+[2018-06-21 06:33:08][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 1102 ms - 53
+[2018-06-21 06:33:08][HTTP]
+[2018-06-21 06:33:08][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+[2018-06-21 06:33:08][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/6/click
+[2018-06-21 06:33:08][HTTP] {"id":"6"}
+[2018-06-21 06:33:08][W3C] Calling AppiumDriver.click() with args: ["6","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:08][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+[2018-06-21 06:33:08][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+[2018-06-21 06:33:08][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:08][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:09][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:09][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:09][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/6/click 200 186 ms - 14
+[2018-06-21 06:33:09][HTTP]
+[2018-06-21 06:33:09][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:09][HTTP] {}
+[2018-06-21 06:33:09][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:09][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:09][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:33:09][HTTP]
+[2018-06-21 06:33:09][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:09][HTTP] {"using":"id","value":"com.target.ui:id/set_store_button"}
+[2018-06-21 06:33:09][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/set_store_button","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:09][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:09][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:09][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/set_store_button","context":"","multiple":false}}
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/set_store_button","context":"","multiple":false}}
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/set_store_button' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/set_store_button]
+[2018-06-21 06:33:09][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+[2018-06-21 06:33:09][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7"}
+[2018-06-21 06:33:09][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 578 ms - 53
+[2018-06-21 06:33:09][HTTP]
+[2018-06-21 06:33:09][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/7/click
+[2018-06-21 06:33:09][HTTP] {"id":"7"}
+[2018-06-21 06:33:09][W3C] Calling AppiumDriver.click() with args: ["7","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:09][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:09][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:09][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:09][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/7/click 200 439 ms - 14
+[2018-06-21 06:33:09][HTTP]
+[2018-06-21 06:33:09][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:09][HTTP] {}
+[2018-06-21 06:33:09][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:09][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:09][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:33:09][HTTP]
+[2018-06-21 06:33:09][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:09][HTTP] {"using":"accessibility id","value":"search"}
+[2018-06-21 06:33:09][W3C] Calling AppiumDriver.findElement() with args: ["accessibility id","search","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:09][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:09][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:09][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"search","context":"","multiple":false}}
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"search","context":"","multiple":false}}
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'search' using 'ACCESSIBILITY_ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:09][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=search, INSTANCE=0]
+[2018-06-21 06:33:12][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:12][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+[2018-06-21 06:33:12][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8"}
+[2018-06-21 06:33:12][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 2262 ms - 53
+[2018-06-21 06:33:12][HTTP]
+[2018-06-21 06:33:12][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/8/click
+[2018-06-21 06:33:12][HTTP] {"id":"8"}
+[2018-06-21 06:33:12][W3C] Calling AppiumDriver.click() with args: ["8","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:12][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+[2018-06-21 06:33:12][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+[2018-06-21 06:33:12][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:12][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:13][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:13][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:13][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/8/click 200 1240 ms - 14
+[2018-06-21 06:33:13][HTTP]
+[2018-06-21 06:33:13][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:13][HTTP] {}
+[2018-06-21 06:33:13][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:13][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:13][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:33:13][HTTP]
+[2018-06-21 06:33:13][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:13][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:13][HTTP] {"using":"id","value":"com.target.ui:id/search_field"}
+[2018-06-21 06:33:13][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/search_field","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:13][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:13][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:13][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_field","context":"","multiple":false}}
+[2018-06-21 06:33:13][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/search_field","context":"","multiple":false}}
+[2018-06-21 06:33:13][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:13][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:13][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/search_field' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:13][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/search_field]
+[2018-06-21 06:33:14][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:14][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+[2018-06-21 06:33:14][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9"}
+[2018-06-21 06:33:14][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 663 ms - 53
+[2018-06-21 06:33:14][HTTP]
+[2018-06-21 06:33:14][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/appium/element/9/value
+[2018-06-21 06:33:14][HTTP] {"id":"9","value":"lacroix"}
+[2018-06-21 06:33:14][W3C] Calling AppiumDriver.setValueImmediate() with args: ["lacroix","9","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:14][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+[2018-06-21 06:33:14][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+[2018-06-21 06:33:14][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:14][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:17][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:17][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell input text lacroix'
+[2018-06-21 06:33:17][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:18][W3C] Responding to client with driver.setValueImmediate() result: null
+[2018-06-21 06:33:18][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/appium/element/9/value 200 4257 ms - 14
+[2018-06-21 06:33:18][HTTP]
+[2018-06-21 06:33:18][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:18][HTTP] {}
+[2018-06-21 06:33:18][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:18][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:18][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:18][HTTP]
+[2018-06-21 06:33:18][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:18][HTTP] {"using":"id","value":"com.target.ui:id/prd_search_suggestion"}
+[2018-06-21 06:33:18][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/prd_search_suggestion","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:18][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:18][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:18][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/prd_search_suggestion","context":"","multiple":false}}
+[2018-06-21 06:33:18][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/prd_search_suggestion","context":"","multiple":false}}
+[2018-06-21 06:33:18][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:18][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:18][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/prd_search_suggestion' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:18][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/prd_search_suggestion]
+[2018-06-21 06:33:19][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:19][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+[2018-06-21 06:33:19][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10"}
+[2018-06-21 06:33:19][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 833 ms - 54
+[2018-06-21 06:33:19][HTTP]
+[2018-06-21 06:33:19][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/10/click
+[2018-06-21 06:33:19][HTTP] {"id":"10"}
+[2018-06-21 06:33:19][W3C] Calling AppiumDriver.click() with args: ["10","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:19][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+[2018-06-21 06:33:19][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+[2018-06-21 06:33:19][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:19][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:21][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:21][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:21][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/10/click 200 1882 ms - 14
+[2018-06-21 06:33:21][HTTP]
+[2018-06-21 06:33:21][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:21][HTTP] {}
+[2018-06-21 06:33:21][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:21][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:21][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 5 ms - 987
+[2018-06-21 06:33:21][HTTP]
+[2018-06-21 06:33:21][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:21][HTTP] {}
+[2018-06-21 06:33:21][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:21][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:21][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:21][HTTP]
+[2018-06-21 06:33:21][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:21][HTTP] {}
+[2018-06-21 06:33:21][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:21][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:21][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:21][HTTP]
+[2018-06-21 06:33:21][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:21][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:21][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:21][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:21][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:21][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:21][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:21][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:21][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:21][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 784 ms - 1267
+[2018-06-21 06:33:21][HTTP]
+[2018-06-21 06:33:22][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:22][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:22][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:22][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:22][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:22][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:22][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:22][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:22][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:22][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:22][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:23][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:23][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:23][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:23][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:23][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:23][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:23][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 1109 ms - 1267
+[2018-06-21 06:33:23][HTTP]
+[2018-06-21 06:33:24][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:24][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:24][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:24][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:24][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:24][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:24][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:24][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:24][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 282 ms - 1267
+[2018-06-21 06:33:24][HTTP]
+[2018-06-21 06:33:24][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:24][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:24][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:24][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:24][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:24][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:24][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:25][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:25][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:25][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 399 ms - 1267
+[2018-06-21 06:33:25][HTTP]
+[2018-06-21 06:33:25][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:25][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:25][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:25][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:25][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:25][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:25][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:26][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:26][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:26][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 571 ms - 1267
+[2018-06-21 06:33:26][HTTP]
+[2018-06-21 06:33:26][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:26][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:26][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:26][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:26][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:26][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:26][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:26][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:26][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:26][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 143 ms - 1267
+[2018-06-21 06:33:26][HTTP]
+[2018-06-21 06:33:27][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:27][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:27][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:27][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:27][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:27][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:27][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:27][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:27][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:27][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 314 ms - 1267
+[2018-06-21 06:33:27][HTTP]
+[2018-06-21 06:33:28][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:28][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:28][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:28][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:28][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:28][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:28][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:28][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:28][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:28][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 265 ms - 1267
+[2018-06-21 06:33:28][HTTP]
+[2018-06-21 06:33:29][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:29][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:29][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:29][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:29][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:29][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:29][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:29][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:29][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:29][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 708 ms - 1267
+[2018-06-21 06:33:29][HTTP]
+[2018-06-21 06:33:30][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:30][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:30][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:30][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:30][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:30][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:30][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:30][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:30][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:30][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 336 ms - 1267
+[2018-06-21 06:33:30][HTTP]
+[2018-06-21 06:33:31][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:31][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:31][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:31][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:31][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:31][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:31][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:31][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:31][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 122 ms - 1267
+[2018-06-21 06:33:31][HTTP]
+[2018-06-21 06:33:31][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:31][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:31][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:31][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:31][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:31][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:31][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:32][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:32][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:32][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:32][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:32][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:32][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:32][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 982 ms - 1267
+[2018-06-21 06:33:32][HTTP]
+[2018-06-21 06:33:33][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:33][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:33][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:33][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:33][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:33][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:33][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:34][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:34][MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[2018-06-21 06:33:34][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 404 860 ms - 1267
+[2018-06-21 06:33:34][HTTP]
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[2018-06-21 06:33:34][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:34][HTTP] {"using":"class name","value":"android.support.v7.widget.RecyclerView"}
+[2018-06-21 06:33:34][W3C] Calling AppiumDriver.findElement() with args: ["class name","android.support.v7.widget.RecyclerView","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:34][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:34][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:34][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.support.v7.widget.RecyclerView","context":"","multiple":false}}
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.support.v7.widget.RecyclerView' using 'CLASS_NAME' with the contextId: '' multiple: false
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.support.v7.widget.RecyclerView, INSTANCE=0]
+[2018-06-21 06:33:34][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+[2018-06-21 06:33:34][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"11"}
+[2018-06-21 06:33:34][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 25 ms - 54
+[2018-06-21 06:33:34][HTTP]
+[2018-06-21 06:33:34][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/11/click
+[2018-06-21 06:33:34][HTTP] {"id":"11"}
+[2018-06-21 06:33:34][W3C] Calling AppiumDriver.click() with args: ["11","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:34][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:34][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:34][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:34][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/11/click 200 271 ms - 14
+[2018-06-21 06:33:34][HTTP]
+[2018-06-21 06:33:34][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:34][HTTP] {}
+[2018-06-21 06:33:34][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:34][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:34][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:34][HTTP]
+[2018-06-21 06:33:34][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:34][HTTP] {}
+[2018-06-21 06:33:34][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:34][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:34][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:34][HTTP]
+[2018-06-21 06:33:34][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:34][HTTP] {}
+[2018-06-21 06:33:34][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:34][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:34][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:34][HTTP]
+[2018-06-21 06:33:34][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:34][HTTP] {"using":"id","value":"com.target.ui:id/add_to_cart_button"}
+[2018-06-21 06:33:34][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/add_to_cart_button","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:34][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:34][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:34][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/add_to_cart_button","context":"","multiple":false}}
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/add_to_cart_button","context":"","multiple":false}}
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/add_to_cart_button' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:34][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/add_to_cart_button]
+[2018-06-21 06:33:36][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+[2018-06-21 06:33:36][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:36][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12"}
+[2018-06-21 06:33:36][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 2005 ms - 54
+[2018-06-21 06:33:36][HTTP]
+[2018-06-21 06:33:36][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/12/click
+[2018-06-21 06:33:36][HTTP] {"id":"12"}
+[2018-06-21 06:33:36][W3C] Calling AppiumDriver.click() with args: ["12","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:36][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+[2018-06-21 06:33:36][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+[2018-06-21 06:33:36][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:36][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:38][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:38][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:38][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/12/click 200 1375 ms - 14
+[2018-06-21 06:33:38][HTTP]
+[2018-06-21 06:33:38][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:38][HTTP] {}
+[2018-06-21 06:33:38][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:38][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:38][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 3 ms - 987
+[2018-06-21 06:33:38][HTTP]
+[2018-06-21 06:33:38][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:38][HTTP] {"using":"id","value":"com.target.ui:id/cart_icon"}
+[2018-06-21 06:33:38][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/cart_icon","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:38][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:38][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:38][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/cart_icon","context":"","multiple":false}}
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/cart_icon","context":"","multiple":false}}
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/cart_icon' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/cart_icon]
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+[2018-06-21 06:33:38][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:38][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"13"}
+[2018-06-21 06:33:38][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 611 ms - 54
+[2018-06-21 06:33:38][HTTP]
+[2018-06-21 06:33:38][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/13/click
+[2018-06-21 06:33:38][HTTP] {"id":"13"}
+[2018-06-21 06:33:38][W3C] Calling AppiumDriver.click() with args: ["13","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:38][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"13"}}
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"13"}}
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:38][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[2018-06-21 06:33:40][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:40][W3C] Responding to client with driver.click() result: true
+[2018-06-21 06:33:40][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/13/click 200 1768 ms - 14
+[2018-06-21 06:33:40][HTTP]
+[2018-06-21 06:33:40][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[2018-06-21 06:33:40][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:40][HTTP] {}
+[2018-06-21 06:33:40][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:40][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:40][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 5 ms - 987
+[2018-06-21 06:33:40][HTTP]
+[2018-06-21 06:33:40][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:40][HTTP] {}
+[2018-06-21 06:33:40][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:40][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:40][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:33:40][HTTP]
+[2018-06-21 06:33:40][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/elements
+[2018-06-21 06:33:40][HTTP] {"using":"id","value":"com.target.ui:id/cart_sign_in_frame"}
+[2018-06-21 06:33:40][W3C] Calling AppiumDriver.findElements() with args: ["id","com.target.ui:id/cart_sign_in_frame","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:40][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:40][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:40][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/cart_sign_in_frame","context":"","multiple":true}}
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/cart_sign_in_frame","context":"","multiple":true}}
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/cart_sign_in_frame' using 'ID' with the contextId: '' multiple: true
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.target.ui:id/cart_sign_in_frame]
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.target.ui:id/cart_sign_in_frame]
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[2018-06-21 06:33:41][AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/cart_sign_in_frame]
+[2018-06-21 06:33:42][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[2018-06-21 06:33:42][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/cart_sign_in_frame' using 'ID' with the contextId: '' multiple: true
+[2018-06-21 06:33:42][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.target.ui:id/cart_sign_in_frame]
+[2018-06-21 06:33:42][AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.target.ui:id/cart_sign_in_frame]
+[2018-06-21 06:33:42][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[2018-06-21 06:33:42][AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/cart_sign_in_frame]
+[2018-06-21 06:33:43][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:43][W3C] Responding to client with driver.findElements() result: []
+[2018-06-21 06:33:43][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/elements 200 2481 ms - 12
+[2018-06-21 06:33:43][HTTP]
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[2018-06-21 06:33:43][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:43][HTTP] {}
+[2018-06-21 06:33:43][W3C] Calling AppiumDriver.getSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:43][W3C] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"Nexus 5 API 27","udid":"emulator-5554"},"platformName":"android","version":"7.0","app":"C:\\Users\\cedrickj\\IdeaProjects\\target_appium\\src\\test\\apk\\com.target.ui.apk","appActivity":"com.target.ui.activity.NavigationActivity","appPackage":"com.target.ui","appWaitActivity":"*","deviceName":"emulator-5554","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[2018-06-21 06:33:43][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 4 ms - 987
+[2018-06-21 06:33:43][HTTP]
+[2018-06-21 06:33:43][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element
+[2018-06-21 06:33:43][HTTP] {"using":"id","value":"com.target.ui:id/cart_product_title"}
+[2018-06-21 06:33:43][W3C] Calling AppiumDriver.findElement() with args: ["id","com.target.ui:id/cart_product_title","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:43][BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[2018-06-21 06:33:43][BaseDriver] Waiting up to 0 ms for condition
+[2018-06-21 06:33:43][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/cart_product_title","context":"","multiple":false}}
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.target.ui:id/cart_product_title","context":"","multiple":false}}
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.target.ui:id/cart_product_title' using 'ID' with the contextId: '' multiple: false
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.target.ui:id/cart_product_title]
+[2018-06-21 06:33:43][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+[2018-06-21 06:33:43][W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"14"}
+[2018-06-21 06:33:43][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element 200 47 ms - 54
+[2018-06-21 06:33:43][HTTP]
+[2018-06-21 06:33:43][HTTP] --> GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/14/text
+[2018-06-21 06:33:43][HTTP] {}
+[2018-06-21 06:33:43][W3C] Calling AppiumDriver.getText() with args: ["14","d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:43][AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"14"}}
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"14"}}
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[2018-06-21 06:33:43][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:43][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"LaCroix Passionfruit Sparkling Water - 8pk\/12 fl oz Cans"}
+[2018-06-21 06:33:43][W3C] Responding to client with driver.getText() result: "LaCroix Passionfruit Sparkling Water - 8pk/12 fl oz Cans"
+[2018-06-21 06:33:43][HTTP] <-- GET /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/element/14/text 200 41 ms - 68
+[2018-06-21 06:33:43][HTTP]
+[2018-06-21 06:33:43][HTTP] --> POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/appium/device/remove_app
+[2018-06-21 06:33:43][HTTP] {"bundleId":"com.target.ui"}
+[2018-06-21 06:33:43][W3C] Calling AppiumDriver.removeApp() with args: ["com.target.ui",null,null,null,"d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:43][ADB] Uninstalling com.target.ui
+[2018-06-21 06:33:43][ADB] Getting install status for com.target.ui
+[2018-06-21 06:33:43][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list packages com.target.ui'
+[2018-06-21 06:33:44][ADB] App is installed
+[2018-06-21 06:33:44][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.target.ui'
+[2018-06-21 06:33:45][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 uninstall com.target.ui'
+[2018-06-21 06:33:46][ADB] 'adb uninstall com.target.ui' command output: Success
+[2018-06-21 06:33:46][ADB] com.target.ui was successfully uninstalled
+[2018-06-21 06:33:46][W3C] Responding to client with driver.removeApp() result: true
+[2018-06-21 06:33:46][HTTP] <-- POST /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278/appium/device/remove_app 200 3399 ms - 14
+[2018-06-21 06:33:46][HTTP]
+[2018-06-21 06:33:46][HTTP] --> DELETE /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278
+[2018-06-21 06:33:46][HTTP] {}
+[2018-06-21 06:33:46][W3C] Calling AppiumDriver.deleteSession() with args: ["d2527edb-26d6-40f8-b65e-765de538f278"]
+[2018-06-21 06:33:46][BaseDriver] Event 'quitSessionRequested' logged at 1529624026663 (18:33:46 GMT-0500 (Central Daylight Time))
+[2018-06-21 06:33:46][Appium] Removing session d2527edb-26d6-40f8-b65e-765de538f278 from our master session list
+[2018-06-21 06:33:46][AndroidDriver] Shutting down Android driver
+[2018-06-21 06:33:46][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.target.ui'
+[2018-06-21 06:33:47][ADB] Pressing the HOME button
+[2018-06-21 06:33:47][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell input keyevent 3'
+[2018-06-21 06:33:51][AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[2018-06-21 06:33:51][AndroidBootstrap] Received command result from bootstrap
+[2018-06-21 06:33:51][UiAutomator] Shutting down UiAutomator
+[2018-06-21 06:33:51][UiAutomator] Moving to state 'stopping'
+[2018-06-21 06:33:51][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[2018-06-21 06:33:51][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[2018-06-21 06:33:51][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[2018-06-21 06:33:51][AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[2018-06-21 06:33:51][UiAutomator] UiAutomator shut down normally
+[2018-06-21 06:33:51][UiAutomator] Moving to state 'stopped'
+[2018-06-21 06:33:51][ADB] Attempting to kill all uiautomator processes
+[2018-06-21 06:33:51][ADB] Getting all processes with uiautomator
+[2018-06-21 06:33:51][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell ps'
+[2018-06-21 06:33:52][ADB] No uiautomator process found to kill, continuing...
+[2018-06-21 06:33:52][UiAutomator] Moving to state 'stopped'
+[2018-06-21 06:33:52][Logcat] Stopping logcat capture
+[2018-06-21 06:33:52][ADB] Running 'C:\Users\cedrickj\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.unlock'
+[2018-06-21 06:33:54][AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[2018-06-21 06:33:54][BaseDriver] Event 'quitSessionFinished' logged at 1529624032826 (18:33:52 GMT-0500 (Central Daylight Time))
+[2018-06-21 06:33:54][W3C] Received response: null
+[2018-06-21 06:33:54][W3C] But deleting session, so not returning
+[2018-06-21 06:33:54][W3C] Responding to client with driver.deleteSession() result: null
+[2018-06-21 06:33:54][HTTP] <-- DELETE /wd/hub/session/d2527edb-26d6-40f8-b65e-765de538f278 200 6164 ms - 14
+[2018-06-21 06:33:54][HTTP]

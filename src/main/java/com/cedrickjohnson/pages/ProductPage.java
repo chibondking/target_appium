@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.temporal.ChronoUnit;
 
 public class ProductPage extends BasePage {
-    private AppiumDriver appiumDriver;
+    private final AppiumDriver appiumDriver;
 
     public ProductPage(AppiumDriver driver) {
         this.appiumDriver = driver;
